@@ -627,3 +627,30 @@ ul{
 .home__social-icon1:hover{
   color: yellow;
 }
+.copyright .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+.copyright .row .info{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+} 
+
+.copyright .row .info h3{
+    font-size: 2rem;
+    color:var(--yellow);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.copyright .row .info h3 span{
+    color:solid yellow;
+    padding:0 .5rem;
+}
+.section1{
+	min-height:50vh;
+}
