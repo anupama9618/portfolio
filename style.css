@@ -431,6 +431,9 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
+    .copyright .row .info{
+		width: 100%;
+	}
 
  }
  /*===== GOOGLE FONTS =====*/
